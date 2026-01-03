@@ -4,6 +4,7 @@ on:
   schedule:
     # 在每周日的00:00 (UTC) 运行
     - cron: "40 0 3 * *"
+    - cron: "40 0 4 * *"   # 第二天兜底
   workflow_dispatch:
 
 jobs:
