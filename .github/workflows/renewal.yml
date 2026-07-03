@@ -1,7 +1,8 @@
 name: Euserv VPS Renewal
 on:
   schedule:
-    - cron: 0 0 22 7 *
+    - cron: "40 0 3 * *"
+    - cron: "40 0 4 * *"   # 第二天兜底
   workflow_dispatch:
 jobs:
   renew-vps:
